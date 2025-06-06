@@ -1,0 +1,21 @@
+.data-visualization {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .chart-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: 0.98rem;
+    color: var(--text);
+  }
+  .chart-label {
+    min-width: 60px;
+    text-align: center;
+  }
+  .chart-loading, .chart-empty {
+    color: #888;
+    font-size: 1.1rem;
+    text-align: center;
+  }

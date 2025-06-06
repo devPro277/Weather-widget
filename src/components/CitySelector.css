@@ -1,0 +1,22 @@
+.city-selector {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .city-search {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 140px;
+  }
+  .city-dropdown {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  .city-error {
+    color: #dc3545;
+    font-size: 0.95em;
+    margin-left: 8px;
+  }

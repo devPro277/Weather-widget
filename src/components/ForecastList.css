@@ -1,0 +1,35 @@
+.forecast-list {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .forecast-card {
+    background: var(--bg);
+    border: 1px solid var(--accent);
+    border-radius: 10px;
+    padding: 12px 18px;
+    min-width: 120px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+  .forecast-date {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  .forecast-icon {
+    width: 48px;
+    height: 48px;
+  }
+  .forecast-temp {
+    margin: 6px 0;
+    font-size: 1.1rem;
+  }
+  .forecast-desc {
+    color: var(--accent);
+    font-size: 0.98rem;
+  }
+  .forecast-loading, .forecast-empty {
+    color: #888;
+    font-size: 1.1rem;
+  }
