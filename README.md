@@ -5,7 +5,7 @@ Bu loyiha React asosida yaratilgan ob-havo vidjeti.
 ## O‘rnatish
 
 ```bash
-git clone https://github.com/username/weather-widget.git
+git clone [https://[github.com/username/weather-widget.git](https://github.com/devPro277/Weather-widget)](https://github.com/devPro277/Weather-widget)
 cd weather-widget
 npm install
 npm start
